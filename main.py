@@ -60,7 +60,7 @@ class people_InsertWidget(QWidget):
 class addresses_InsertWidget(QWidget):
     def __init__(self, parent: QWidget = None):
         super().__init__(parent)
-        VBoxLayout = QVBoxLayout(self)
+        VBoxLayout = QVBoxLayout()
 
         self.user_id = QLineEdit()
         self.user_id.setPlaceholderText("Person id")
